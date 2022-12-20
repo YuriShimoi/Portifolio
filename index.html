@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Yuri Shimoi</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="#skills">experiências</a></li>
+                <li><a href="#jobs">trabalhos</a></li>
+                <li><a href="#projects">projetos</a></li>
+            </ul>
+        </header>
+        <div id="main">
+            <div id="presentation">
+                <div class="content">
+                    <div class="lateral">
+                        <div id="name">
+                            <span>Oi, eu me chamo</span>
+                            <h1>YURI SHIMOI</h1>
+                        </div>
+                        <div id="title">
+                            <h2>DESENVOLVEDOR DE SOFTWARE</h2>
+                            <h3>& ARQUITETO DE SISTEMAS</h3>
+                        </div>
+                        <div id="resume">
+                            Como hobby desenvolvo projetos voltados a instrumentação e
+                            padronização de código, aperfeiçoando arquitetura, design UI/UX, 
+                            legibilidade e documentação, viso sempre aprimorar meu conhecimento
+                            e agregá-lo a novas tecnologias, buscando entender e viabilizar o improvável.
+                        </div>
+                        <div id="links">
+                            <a href="https://github.com/yurishimoi" target="_blank"><img src="images/github.png" alt="github"></a>
+                            <a href="https://www.linkedin.com/in/yuri-shimoi-34b1b6165/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a>
+                            <a href="mailto:shimoi.yuri@gmail.com"><img src="images/mail.png" alt="mail"></a>
+                            <a href="curriculum.pdf" target="_blank"><img src="images/curriculum.png" alt="curriculum"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="skills">
+                <div class="content">
+                    <div class="wrapper">
+                        <div class="major">
+                            <h1 style="font-size:4rem">WEB FULLSTACK</h1>
+                            <h3 style="font-size:2rem">HTML/CSS/JS (+JQuery)</h3>
+                            <h2 style="font-size:3rem">BACKEND - API</h2>
+                            <h3 style="font-size:2rem">Python, C# .Net</h3>
+                        </div>
+                        <div class="minor wrapper" vertical>
+                            <div class="major">
+                                <h1 style="font-size:3rem">DESKTOP</h1>
+                                <h3 style="font-size:1.5rem">Python, C/C++/C#, Java</h3>
+                            </div>
+                            <div class="minor wrapper" reverse>
+                                <div class="major">
+                                    <h1 style="font-size:2.5rem">MOBILE</h1>
+                                    <h3>Java - Android<br>TS - ReactNative</h3>
+                                </div>
+                                <div class="minor wrapper" vertical>
+                                    <div class="major">
+                                        <h1 style="font-size:1.5rem">DATABASE</h1>
+                                        <h3>Oracle, SQL*</h3>
+                                    </div>
+                                    <div class="minor wrapper">
+                                        <div class="major">
+                                            <h1>MICRO SERVICES</h1>
+                                        </div>
+                                        <div class="minor wrapper" vertical>
+                                            <div class="major">
+                                                <h1>IOT</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="jobs">
+                <div class="content">
+                    <br>
+                    <h1>Colaboração em Sistemas e Projetos Comerciais</h1>
+                    <div class="project-list">
+                        <div class="project-item" onclick="clickItem(this)">
+                            <img src="images/mlic.jpg" style="--filter: grayscale(1) brightness(0.6) contrast(1.5)">
+                            <h1><a href="http://ocs.ifsp.edu.br/index.php/conict/xiconict/paper/view/7118" target="_blank">ML - IC</a></h1>
+                            <div class="project-resume">
+                                <b>Desenvolvedor</b><br>
+                            </div>
+                        </div>
+                        <div class="project-item" onclick="clickItem(this)">
+                            <img src="images/clquickium.jpg">
+                            <h1><a href="https://clp.quickium.com/home" target="_blank">CLQuickium</a></h1>
+                            <div class="project-resume">
+                                <b>FullStack, QA, Arquiteto</b><br>
+                            </div>
+                        </div>
+                        <div class="project-item" onclick="clickItem(this)">
+                            <img src="images/simplefarm.png" style="--filter: grayscale(1) brightness(0.7) contrast(3)">
+                            <h1><a href="https://gatec.com.br/simplefarm/" target="_blank">SimpleFarm</a></h1>
+                            <div class="project-resume">
+                                <b>FullStack, Arquiteto Jr.</b><br>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br><br>
+                </div>
+            </div>
+            <div id="projects">
+                <div class="content">
+                    <br>
+                    <h1>Projetos em Destaque no Github</h1>
+                    <div id="pinned-projects" class="project-list" black duo>
+                        <div class="project-empty">Searching on Github... ╰(*°▽°*)╯</div>
+                    </div>
+                    <br><br><br>
+                </div>
+            </div>
+            <footer>Portifolio designed by Yuri Shimoi - 2022</footer>
+        </div>
+    </body>
+</html>
