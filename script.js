@@ -14,7 +14,6 @@ function buildProjectItem(title, description, link, stars=0) {
 
     let primg = buildHTML("IMG");
     primg.src = "images/githubpage.png";
-    primg.style = "--filter: grayscale(1) brightness(0.6) contrast(1.5)";
 
     let telem = buildHTML("H1");
     let tlink = buildHTML("A");
